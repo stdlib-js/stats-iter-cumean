@@ -43,32 +43,30 @@ The cumulative [arithmetic mean][arithmetic-mean] is defined as
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-iter-cumean
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-itercumean = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cumean@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cumean@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.itercumean;
-})();
-</script>
+var itercumean = require( '@stdlib/stats-iter-cumean' );
 ```
 
 #### itercumean( iterator )
@@ -121,14 +119,9 @@ m = it.next().value;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cumean@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var runif = require( '@stdlib/random-iter-uniform' );
+var itercumean = require( '@stdlib/stats-iter-cumean' );
 
 // Create an iterator for generating uniformly distributed pseudorandom numbers:
 var rand = runif( -10.0, 10.0, {
@@ -150,11 +143,6 @@ while ( true ) {
         break;
     }
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -250,6 +238,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/stats-iter-cumean/tree/deno
 [umd-url]: https://github.com/stdlib-js/stats-iter-cumean/tree/umd
 [esm-url]: https://github.com/stdlib-js/stats-iter-cumean/tree/esm
+[branches-url]: https://github.com/stdlib-js/stats-iter-cumean/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-iter-cumean/main/LICENSE
 
@@ -259,11 +248,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/iter/cumidrange]: https://github.com/stdlib-js/stats-iter-cumidrange/tree/umd
+[@stdlib/stats/iter/cumidrange]: https://github.com/stdlib-js/stats-iter-cumidrange
 
-[@stdlib/stats/iter/cusum]: https://github.com/stdlib-js/stats-iter-cusum/tree/umd
+[@stdlib/stats/iter/cusum]: https://github.com/stdlib-js/stats-iter-cusum
 
-[@stdlib/stats/iter/mean]: https://github.com/stdlib-js/stats-iter-mean/tree/umd
+[@stdlib/stats/iter/mean]: https://github.com/stdlib-js/stats-iter-mean
 
 <!-- </related-links> -->
 
