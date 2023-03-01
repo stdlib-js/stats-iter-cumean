@@ -165,9 +165,9 @@ while ( true ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/iter/cumidrange`][@stdlib/stats/iter/cumidrange]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative mid-range.</span>
--   <span class="package-name">[`@stdlib/stats/iter/cusum`][@stdlib/stats/iter/cusum]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative sum.</span>
--   <span class="package-name">[`@stdlib/stats/iter/mean`][@stdlib/stats/iter/mean]</span><span class="delimiter">: </span><span class="description">compute the arithmetic mean over all iterated values.</span>
+-   <span class="package-name">[`@stdlib/stats-iter/cumidrange`][@stdlib/stats/iter/cumidrange]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative mid-range.</span>
+-   <span class="package-name">[`@stdlib/stats-iter/cusum`][@stdlib/stats/iter/cusum]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative sum.</span>
+-   <span class="package-name">[`@stdlib/stats-iter/mean`][@stdlib/stats/iter/mean]</span><span class="delimiter">: </span><span class="description">compute the arithmetic mean over all iterated values.</span>
 
 </section>
 
