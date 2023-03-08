@@ -30,10 +30,14 @@ The cumulative [arithmetic mean][arithmetic-mean] is defined as
 
 <!-- <equation class="equation" label="eq:cumulative_arithmetic_mean" align="center" raw="\bar{x}_n = \frac{1}{n} \sum_{i=0}^n x_i" alt="Equation for the cumulative arithmetic mean."> -->
 
-<div class="equation" align="center" data-raw-text="\bar{x}_n = \frac{1}{n} \sum_{i=0}^n x_i" data-equation="eq:cumulative_arithmetic_mean">
+```math
+\bar{x}_n = \frac{1}{n} \sum_{i=0}^n x_i
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\bar{x}_n = \frac{1}{n} \sum_{i=0}^n x_i" data-equation="eq:cumulative_arithmetic_mean">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@409c465a46090d66ce8ea7980f14e8f28a95e9be/lib/node_modules/@stdlib/stats/iter/cumean/docs/img/equation_cumulative_arithmetic_mean.svg" alt="Equation for the cumulative arithmetic mean.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -226,7 +230,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
