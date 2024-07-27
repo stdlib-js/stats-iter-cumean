@@ -65,7 +65,7 @@ The cumulative [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
-import itercumean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cumean@esm/index.mjs';
+import itercumean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cumean@v0.2.2-esm/index.mjs';
 ```
 
 #### itercumean( iterator )
@@ -125,7 +125,7 @@ m = it.next().value;
 <script type="module">
 
 import runif from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@esm/index.mjs';
-import itercumean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cumean@esm/index.mjs';
+import itercumean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cumean@v0.2.2-esm/index.mjs';
 
 // Create an iterator for generating uniformly distributed pseudorandom numbers:
 var rand = runif( -10.0, 10.0, {
